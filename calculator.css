@@ -1,0 +1,73 @@
+.calculator-contatiner{
+    height: 250px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+/* Display Input */
+.display{
+    height: 60px;
+    display: flex;
+    background-color: rgb(77, 73, 73);
+    margin-bottom: 5px;
+    
+}
+
+.displayInput{
+    background-color: black;
+    color: white;
+}
+
+/* button design */
+.btn-container{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    
+}
+
+.btn-container .btn-sign{
+    display: flex;
+    flex-direction: column;
+    column-gap: 5px;
+}
+
+/* button sign */
+.btn-sign button{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgb(230, 153, 10);
+    color: white;
+    font-weight: bold;
+    margin: 3px;
+    border: none;
+    transition: background-color 0.1s;
+}
+
+
+.btn-container .btn-sign :hover{
+    background-color: rgb(202, 136, 13);
+}
+
+/* button numbers */
+.btn-number button{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+    margin: 3px;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.1s;
+}
+
+.btn-container .btn-number :hover{
+    background-color:rgb(189, 179, 179);
+}

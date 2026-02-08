@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator-contatiner">
+       <div class="display">
+        <!-- <p id="UserValue1"></p> -->
+        <!-- <p class="displaySign"></p> -->
+        <!-- <p class="UserValue2"></p> -->
+        <input class="displayInput" id="displayInput" readonly>
+       </div>
+
+        <div class="btn-container">
+
+          <div class="btn-sign">
+            <button id="sign">+</button>
+            <button id="sign">-</button>
+            <button id="sign">*</button>
+            <button id="sign">/</button>
+            <button id="sign">C</button>
+          </div>
+
+          <div class="btn-number">
+            <button id="number7">7</button>
+            <button id="number8">8</button>
+            <button id="number9">9</button>
+            <button id="number4">4</button>
+            <button id="number5">5</button>
+            <button id="number6">6</button>
+            <button id="number1">1</button>
+            <button id="number2">2</button>
+            <button id="number3">3</button>
+            <button id="number0">0</button>
+            <button id="point">.</button>
+            <button id="equal" onclick="Calculate()">=</button>
+
+            <!-- <button id="number0" onclick="Zero()">0</button>
+            <button id="number1" onclick="One()">1</button>
+            <button id="number2" onclick="Two()">2</button> -->
+          </div>
+
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
